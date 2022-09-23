@@ -54,13 +54,13 @@
 .contact__img {
   margin-right: 6px;
 }
-.order-checkout__select--title {
+.nav__icons-list_title {
   position: relative;
   // margin-right: 30px;
   padding-right: 20px;
 }
-.order-checkout__select--title::before,
-.order-checkout__select--title::after {
+.nav__icons-list_title::before,
+.nav__icons-list_title::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -75,7 +75,7 @@
   transform: translate(-3px, -50%) rotate(45deg);
 }
 
-.order-checkout__select--title::after {
+.nav__icons-list_title::after {
   -webkit-transform: translate(3px, -50%) rotate(-45deg);
   transform: translate(3px, -50%) rotate(-45deg);
 }
@@ -135,19 +135,19 @@
   flex: 0 0 50%;
   max-width: 50%;
 }
-.require_list {
+.col__list {
   list-style-type: none;
   padding-left: 30px;
   // margin-top: 22px;
 }
-.require_list li {
+.col__list li {
   position: relative;
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 25px;
   color: #ffffff;
 }
-.require_list li:before {
+.col__list li:before {
   content: '';
   display: block;
   position: absolute;
@@ -278,15 +278,16 @@
 }
 
 .card__image-text {
+  margin-left: 20px;
   padding-top: 15px;
-  max-width: 360px;
+  max-width: 350px;
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
   color: #171717;
 }
 
-.img__card {
+.card__image-img {
 }
 .card__title {
   font-weight: 700;
@@ -415,7 +416,7 @@
 }
 .col {
 }
-.require_list {
+.col__list {
 }
 .school__text {
   max-width: 780px;
@@ -425,10 +426,10 @@
   line-height: 25px;
   color: #fff;
 }
-.shool__item {
+.school__item {
   position: relative;
 }
-.shool__item:before {
+.school__item:before {
   z-index: -1;
   content: '';
   display: block;
@@ -558,12 +559,12 @@
   padding-top: 40px;
   background: #171717;
 }
-.help__button {
+.button_help {
   margin-top: 0;
   width: 260px;
   height: 65px;
 }
-.button__text {
+.form__input-text {
   padding-top: 8px;
   max-width: 232px;
   font-weight: 400;
